@@ -16,8 +16,9 @@ Foram utilizados fontes baseadas em textos e canais do youtube como:
 - https://www.allthingsdistributed.com/
 
 ## Como usar este repositório
-1. Leia o MINIGUIDE.md para o resumo consolidado e os prompts reutilizáveis.  
-2. Abra PROMPT_LOG.md para ver os prompts testados, variações e troubleshooting.  
+1. Leia o [miniguide.md](miniguide.md) para o resumo consolidado e os prompts reutilizáveis.  
+2. Abra [PROMPT_LOG.md](PROMPT_LOG.md) para ver os prompts testados, variações e troubleshooting.
+3. Na pasta [sumario](sumario) deve conter respostas completas do NotebookLM (um arquivo por entrada, nomeados como `entrada-01.md`, `entrada-02.md`, ...).
 
 ## Engenharia de Prompts e Cicatrizes
 **Princípios rápidos**
