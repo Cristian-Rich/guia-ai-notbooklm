@@ -1,13 +1,12 @@
-# guia-ai-notbooklm
-Repositório com a intenção de aprofundar os conhecimentos de IA e utilização do notbooklm 
+# guia-ai-notebooklm
 
-## Contexo
-Ideia é a utilização do NotebookLM para criar um segundo cérebro, baseado nos melhores desenvolvedores de software e pesquisadores de engenharia de software modernos e da atualidade. 
-Com o Objetivo de auxiliar nos estudos de AI de desenvolvedores iniciantes.
+Repositório para aprofundar conhecimentos em IA usando o NotebookLM como um "segundo cérebro".
 
-## Fontes Utilizadas:
-Foram utilizados fontes baseadas em textos e canais do youtube como:
+## Contexto
+Objetivo: usar o NotebookLM para consolidar estudos sobre arquitetura evolutiva, sistemas distribuídos e boas práticas de engenharia, criando material reutilizável para desenvolvedores iniciantes.
 
+## Fontes utilizadas (3–5)
+As seguintes fontes foram usadas como base e carregadas no NotebookLM:
 - https://www.youtube.com/watch?v=e0KKcsgs1Oc
 - https://www.youtube.com/@GOTOconferences
 - https://www.youtube.com/@infoq
@@ -15,19 +14,19 @@ Foram utilizados fontes baseadas em textos e canais do youtube como:
 - https://martinfowler.com/
 - https://www.allthingsdistributed.com/
 
+## Estrutura do repositório
+- **README.md** — visão geral e instruções de entrega.  
+- **MINIGUIDE.md** — resumos, prompts reutilizáveis e glossário.  
+- **PROMPT_LOG.md** — registro de prompts, variações, troubleshooting e link para respostas completas.  
+- **summaries/** — respostas completas do NotebookLM (um arquivo por entrada, ex.: `entrada-01.md`).  
+
 ## Como usar este repositório
-1. Leia o [miniguide.md](miniguide.md) para o resumo consolidado e os prompts reutilizáveis.  
-2. Abra [PROMPT_LOG.md](PROMPT_LOG.md) para ver os prompts testados, variações e troubleshooting.
-3. Na pasta [sumario](sumario) deve conter respostas completas do NotebookLM (um arquivo por entrada, nomeados como `entrada-01.md`, `entrada-02.md`, ...).
+1. Leia o [MINIGUIDE.md](MINIGUIDE.md) para o resumo consolidado e prompts reutilizáveis.  
+2. Consulte o [PROMPT_LOG.md](PROMPT_LOG.md) para ver os prompts testados, variações e troubleshooting.  
+3. Abra a pasta `sumarios/` para ver as respostas completas do NotebookLM (cada arquivo inclui `Fontes usadas:`).
 
-## Engenharia de Prompts e Cicatrizes
-**Princípios rápidos**
-- Sempre inclua contexto “com base nas fontes carregadas no NotebookLM”.  
-- Defina formato “em 5 bullets”, “máx. 150 palavras”, “incluir comando CLI”.  
-- Peça fontes “cite as fontes usadas e trechos relevantes”.  
-- Itere: registre variações e ações de troubleshooting.
-
-**Template de registro PROMPT_LOG.md
+## Engenharia de Prompts (template)
+Use este template no `PROMPT_LOG.md` para cada experimento:
 ```markdown
 **Título:**  
 **Data:**  
@@ -39,4 +38,5 @@ Foram utilizados fontes baseadas em textos e canais do youtube como:
 **O que funcionou:**  
 **O que falhou / limitações:**  
 **Ação de troubleshooting:**  
-**Prompt final reutilizável:**
+**Prompt final reutilizável:**  
+**Resposta completa:** summaries/entrada-XX.md
